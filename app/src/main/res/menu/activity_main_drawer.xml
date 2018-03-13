@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_crime"
+            android:icon="@drawable/ic_gun"
+            android:title="Crime" />
+        <item
+            android:id="@+id/nav_pollution"
+            android:icon="@drawable/ic_industry"
+            android:title="Pollution" />
+        <item
+            android:id="@+id/nav_traffic"
+            android:icon="@drawable/ic_trafficlight"
+            android:title="Traffic" />
+        <item
+            android:id="@+id/nav_qof"
+            android:icon="@drawable/ic_familyroom"
+            android:title="Quality Of Life" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_hospital"
+            android:title="Health Care" />
+        <item
+            android:id="@+id/nav_property"
+            android:icon="@drawable/ic_mortgage"
+            android:title="Property Price" />
+    </group>
+
+
+
+
+
+
+
+</menu>
